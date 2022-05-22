@@ -3,13 +3,7 @@
 use ink_lang as ink;
 
 #[ink::contract]
-mod swanky_contract {}
-#![cfg_attr(not(feature = "std"), no_std)]
-
-use ink_lang as ink;
-
-#[ink::contract]
-mod swanky_contract_test {
+mod swanky_contract1 {
 
     /// Defines the storage of your contract.
     /// Add new fields to the below struct in order
