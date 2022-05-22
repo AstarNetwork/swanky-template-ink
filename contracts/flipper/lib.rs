@@ -3,12 +3,6 @@
 use ink_lang as ink;
 
 #[ink::contract]
-mod swanky_contract {}
-#![cfg_attr(not(feature = "std"), no_std)]
-
-use ink_lang as ink;
-
-#[ink::contract]
 mod swanky_contract_test {
 
     /// Defines the storage of your contract.
