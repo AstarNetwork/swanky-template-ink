@@ -52,5 +52,10 @@ pub mod my_psp22 {
         pub fn get_hated_account(&self) -> AccountId {
             self.hated_account.clone()
         }
+
+        #[ink(message)]
+        pub fn get_total_supply(&self) -> Balance {
+            self.total_supply()
+        }
     }
 }
